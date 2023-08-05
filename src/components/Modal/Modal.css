@@ -1,0 +1,212 @@
+.Modal-Content {
+  width: 509px;
+  height: 512px;
+  background: #ffffff;
+
+}
+
+.close-button {
+  position: absolute;
+  right: 57px;
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.Modal-header {
+  position: relative;
+  height: 52px;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03435f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7px;
+  line-height: 17px;
+  font-size: 16px;
+}
+
+.Modal-Area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.userInfo {
+  display: flex;
+  width: 380px;
+  height: 88px;
+  margin-top: 24px;
+  gap:1.5rem
+}
+
+.userInfo-add {
+  display: block;
+}
+
+.Editbutton {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #55a630;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.userrname-avatar {
+  width: 109px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  color: #03435f;
+}
+.userrname-avatar h2 {
+  font-size: 16px !important;
+}
+
+.school-info {
+  width: 185px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.title-info {
+  width: 93px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.AboutModal {
+  width: 100%;
+  padding: 15px;
+}
+
+.about-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c4c4;
+}
+
+.description {
+  width: 445px;
+  height: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #03435f;
+}
+
+.info-section {
+  display: block;
+  width: 150px;
+}
+
+.info-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c4c4;
+}
+.email-style {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.phone-number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 169px;
+  height: 42px;
+  background: #55a630;
+  border-radius: 4px;
+  color:#ffffff;
+  border: none;
+}
+
+.second-btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 169px;
+height: 42px;
+background: rgba(0, 0, 0, 0.04);
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #03435F;
+border: none;
+}
+.Modal-body{
+  padding-left:20px;
+  padding-right: 20px;
+}

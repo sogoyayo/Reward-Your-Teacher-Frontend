@@ -1,0 +1,409 @@
+.Modal-Content2 {
+  width: 509px;
+  height: 425px;
+  background: #ffffff;
+}
+
+.close-button2 {
+  position: absolute;
+  right: 57px;
+  border: 0;
+  background: transparent;
+  /* font-weight: bold; */
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.Modal-header2 {
+  position: relative;
+  height: 52px;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03435f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+}
+
+.Modal-Area2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contentContainer2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.userInfo2 {
+  display: flex;
+  width: 380px;
+  height: 88px;
+  margin-top: 24px;
+  gap: 1.5rem;
+}
+
+.userInfo-add2 {
+  display: block;
+}
+
+.Editbutton2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #55a630;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.avatar2 {
+  border-radius: 50%;
+}
+
+.userrname-avatar2 {
+  width: 109px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.school-info2 {
+  width: 185px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.title-info2 {
+  width: 93px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.AboutModal2 {
+  width: 100%;
+  padding: 15px;
+}
+
+.about-text2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c4c4;
+}
+
+.description2 {
+  width: 445px;
+  height: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #03435f;
+}
+
+.info-section {
+  display: block;
+  width: 150px;
+}
+
+.info-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c4c4;
+}
+.email-style {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.phone-number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 169px;
+  height: 42px;
+  background: #55a630;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+}
+
+.second-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 169px;
+  height: 42px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #03435f;
+  border: none;
+}
+.Modal-body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-title {
+  display: flex;
+  gap: 1rem;
+}
+
+/* .amount-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.amount-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #979797;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.amount {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #03435f;
+}
+.payment-btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pay-first-btn {
+  width: 160px;
+  height: 37px;
+  padding: 10px;
+  background: #55a630;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+.pay-second-btn {
+  width: 160px;
+  height: 37px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.03);
+  border: none;
+  border-radius: 2px;
+  color: #bdbdbd;
+}
+
+.input-style {
+  width: 320px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  padding: 8px 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display:block;
+}
+.input-div {
+  display: block;
+  margin-top: 1rem;
+}
+.input-wrapper{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card-text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #21334F;
+display:block;
+z-index: 3;
+}
+
+.valid-input-till{
+width: 153px;
+height: 35px;
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+padding: 8px 16px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #C4C4C4;
+}
+
+.validity-div{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  gap:1rem
+}
+
+.valid-till-label{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #21334F;
+display:block;
+}
+
+.validity{
+  display: block;
+}
+
+.validity2{
+  display: block;
+}
+
+.valid-till-label2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #21334F;
+display: block;
+}
+
+.valid-input-till2{
+width: 153px;
+height: 35px;
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+padding: 8px 16px;
+}
+.new-btn{
+width: 320px;
+height: 48px;
+background: #55A630 !important;
+padding: 8px 16px;
+
+border: none;
+margin-top: 1rem;
+color: white;
+border-radius: 4px;
+}
+
+.btn-new-div{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.form-style{
+  text-align: center;
+}
+.form-style input{
+  display: block;
+  padding: 8px 16px;
+  margin: auto;
+  width: 250px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.form-style p{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.input-size{
+padding: 8px 16px;
+border: 1px solid #D9D9D9;
+}
+
+.p-tag{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 29px;
+color: #03435F;
+}
